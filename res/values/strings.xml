@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">ProgramNinja</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_sand_box">SandBoxActivity</string>
+    <string name="success">SUCCESS</string>
+    <string name="complement">YOU ARE  A TRUE NINJA</string>
+    <string name="tryagain">TRY AGAIN</string>
+    <string name="failure">A NINJA NEVER GIVES UP</string>
+    <string name="programninja">PROGRAM NINJA</string>
+    <string name="challenge">Challenge</string>
+    <string name="puzzle_one">Puzzle 1</string>
+    <string name="freeforall">Free-4-all</string>
+    <string name="puzzle_two">Puzzle 2</string>
+    <string name="assignment">Assignment</string>
+    <string name="close">BEGIN</string>
+
+</resources>

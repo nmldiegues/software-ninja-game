@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/main"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        android:gravity="center">
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/gray1" 
+        android:gravity="center">
+
+        <com.codebits.softwareninja.domain.GameCanvas
+            android:id="@+id/SurfaceView01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/ContextToolboxView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/nodeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="InsertNodeNameHere"
+                android:textColor="@color/gray1" />
+
+            <LinearLayout
+                android:id="@+id/editNodeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.96"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/closeToolboxBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical|center_horizontal|bottom"
+                android:src="@drawable/closebtn" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:orientation="vertical"
+        android:background="@drawable/barra" >
+        
+	            
+		          <LinearLayout 
+	                android:layout_height="fill_parent"
+	                android:layout_width="fill_parent" 
+	                android:layout_weight="1"
+	                android:gravity="center" 
+	                android:orientation="horizontal">
+	
+		              <ImageButton
+		                  android:id="@+id/startbtn"
+		                  android:layout_width="50dp"
+		                  android:layout_height="fill_parent"
+		                  android:layout_marginBottom="3dp"
+		                  android:layout_marginLeft="2dp"
+		                  android:layout_marginRight="2dp"
+		                  android:layout_marginTop="3dp"
+		                  android:background="@drawable/startbtn" />
+		              
+		              <ImageButton
+		                  android:id="@+id/expbtn"
+		                  android:layout_width="50dp"
+		                  android:layout_height="fill_parent"
+		                  android:layout_marginBottom="3dp"
+		                  android:layout_marginLeft="2dp"
+		                  android:layout_marginRight="2dp"
+		                  android:layout_marginTop="3dp"
+		                  android:background="@drawable/expbtn" />
+		              
+		              <ImageButton
+		                  android:id="@+id/ifbtn"
+		                  android:layout_width="50dp"
+		                  android:layout_height="fill_parent"
+		                  android:layout_marginBottom="3dp"
+		                  android:layout_marginLeft="2dp"
+		                  android:layout_marginRight="2dp"
+		                  android:layout_marginTop="3dp"
+		                  android:background="@drawable/ifbtn" />
+		        
+		              <ImageButton
+		                  android:id="@+id/cyclobtn"
+		                  android:layout_width="50dp"
+		                  android:layout_height="fill_parent"
+		                  android:layout_marginBottom="3dp"
+		                  android:layout_marginLeft="2dp"
+		                  android:layout_marginRight="2dp"
+		                  android:layout_marginTop="3dp"
+		                  android:background="@drawable/ciclobtn" />
+		              
+		              <ImageButton
+		                  android:id="@+id/printbtn"
+		                  android:layout_width="50dp"
+		                  android:layout_height="fill_parent"
+		                  android:layout_marginBottom="3dp"
+		                  android:layout_marginLeft="2dp"
+		                  android:layout_marginRight="2dp"
+		                  android:layout_marginTop="3dp"
+		                  android:background="@drawable/printbtn" />
+		              
+		              <ImageButton
+		                  android:id="@+id/endbtn"
+		                  android:layout_width="50dp"
+		                  android:layout_height="fill_parent"
+		                  android:layout_marginBottom="3dp"
+		                  android:layout_marginLeft="2dp"
+		                  android:layout_marginRight="2dp"
+		                  android:layout_marginTop="3dp"
+		                  android:background="@drawable/endbtn" />
+		              </LinearLayout>
+		   </FrameLayout>
+    
+
+</LinearLayout>
